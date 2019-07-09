@@ -1,0 +1,2 @@
+# KeepThreadAlive
+利用runloop保持子线程处于活跃状态，在适当时候结束runloop
