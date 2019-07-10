@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1B225F522D579D4004A5CE0 /* MDPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B225F422D579D4004A5CE0 /* MDPermenantThread.m */; };
+		D1B225F822D57C84004A5CE0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B225F722D57C84004A5CE0 /* SecondViewController.m */; };
 		D1CEC29E22D4291400847AB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CEC29D22D4291400847AB0 /* AppDelegate.m */; };
 		D1CEC2A122D4291500847AB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CEC2A022D4291500847AB0 /* ViewController.m */; };
 		D1CEC2A422D4291500847AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1CEC2A222D4291500847AB0 /* Main.storyboard */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1B225F322D579D4004A5CE0 /* MDPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDPermenantThread.h; sourceTree = "<group>"; };
+		D1B225F422D579D4004A5CE0 /* MDPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDPermenantThread.m; sourceTree = "<group>"; };
+		D1B225F622D57C84004A5CE0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D1B225F722D57C84004A5CE0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D1CEC29922D4291400847AB0 /* KeepThreadAlive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepThreadAlive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CEC29C22D4291400847AB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1CEC29D22D4291400847AB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +71,10 @@
 				D1CEC29D22D4291400847AB0 /* AppDelegate.m */,
 				D1CEC29F22D4291400847AB0 /* ViewController.h */,
 				D1CEC2A022D4291500847AB0 /* ViewController.m */,
+				D1B225F622D57C84004A5CE0 /* SecondViewController.h */,
+				D1B225F722D57C84004A5CE0 /* SecondViewController.m */,
+				D1B225F322D579D4004A5CE0 /* MDPermenantThread.h */,
+				D1B225F422D579D4004A5CE0 /* MDPermenantThread.m */,
 				D1CEC2B222D42C0A00847AB0 /* MDThread.h */,
 				D1CEC2B322D42C0A00847AB0 /* MDThread.m */,
 				D1CEC2A222D4291500847AB0 /* Main.storyboard */,
@@ -146,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B225F822D57C84004A5CE0 /* SecondViewController.m in Sources */,
 				D1CEC2A122D4291500847AB0 /* ViewController.m in Sources */,
+				D1B225F522D579D4004A5CE0 /* MDPermenantThread.m in Sources */,
 				D1CEC2AC22D4291600847AB0 /* main.m in Sources */,
 				D1CEC2B422D42C0A00847AB0 /* MDThread.m in Sources */,
 				D1CEC29E22D4291400847AB0 /* AppDelegate.m in Sources */,
